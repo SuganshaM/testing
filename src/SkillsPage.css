@@ -1,0 +1,46 @@
+.skills-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  .skills-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .skills-page form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .skills-page input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .skills-page button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .skills-page button[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #0069d9;
+  }
+  
+  .skills-page ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skills-page li {
+    margin: 10px 0;
+  }
+  
